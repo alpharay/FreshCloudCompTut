@@ -7,3 +7,6 @@
 
 
 * _MISCELLANEOUS_
+
+* _Threads a multithreads_
+Threads are needed in cloud computing. Fundamentally threads are supported by concurrency or parallelism

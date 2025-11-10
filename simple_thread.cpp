@@ -1,0 +1,13 @@
+#include <iostream>
+#include <thread>
+
+void print_message(){
+  std::cout<<"This is a thread"<<std::endl;
+}
+
+
+int main(){
+  std::thread t(print_message);
+  t.join(); //wait for the thread to finish
+  return 0;
+}
